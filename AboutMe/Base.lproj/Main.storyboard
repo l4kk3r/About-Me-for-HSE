@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vg9-c5-xMf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Обо мне-->
+        <scene sceneID="iGW-ji-Lw4">
+            <objects>
+                <navigationController id="dwr-5d-Vcy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Обо мне" image="info.circle" catalog="system" selectedImage="info.circle" id="dPZ-C4-iBv"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fv3-Au-oVK">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Gkr-Ua-2fw" kind="relationship" relationship="rootViewController" id="UKV-h6-Nsw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nB1-2h-WJm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1774" y="644"/>
+        </scene>
+        <!--Идея проекта-->
+        <scene sceneID="qvE-2M-aha">
+            <objects>
+                <navigationController id="NjC-SV-8vh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Идея проекта" image="lightbulb" catalog="system" selectedImage="lightbulb" id="d5d-M7-2vh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Be-d5-82Y">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="yv7-aH-Cto" kind="relationship" relationship="rootViewController" id="CV8-Fj-Esm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xXc-Ya-MKm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1775" y="-82"/>
+        </scene>
+        <!--Идея проекта-->
+        <scene sceneID="BgZ-ka-tbo">
+            <objects>
+                <viewController id="yv7-aH-Cto" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JDs-GS-tbw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dn7-tD-tpb">
+                                <rect key="frame" x="21" y="88" width="372" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="372" id="8o4-qR-rT2"/>
+                                    <constraint firstAttribute="height" constant="121" id="k1n-YK-YO6"/>
+                                </constraints>
+                                <string key="text">У меня есть несколько интересных на мой взгляд идей. Сейчас я приведу две их них. Я всегда готов обсудить их с вами и вместе сделать полноценный проект!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Идея № 1 (AIO Messanger)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ptq-Kl-Z2H">
+                                <rect key="frame" x="58.5" y="217" width="297" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Идея № 1 (AIO Messanger)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TpP-T2-LZE">
+                                <rect key="frame" x="58.5" y="514" width="297" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oL-yw-IED">
+                                <rect key="frame" x="21" y="255" width="372" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="251" id="WJn-e3-B7h"/>
+                                    <constraint firstAttribute="width" constant="372" id="gMb-pV-BWI"/>
+                                </constraints>
+                                <string key="text">Приложение, которое объединяет в себе сразу все мессенджеры пользователя. Как например Telegram, Viber и WhatsApp. Это облегчит жизнь людей в несколько раз. Если до этого фрилансеру писали сразу в 5 мессенджеров и ему надо было переключаться между ними, то теперь он видит все сообщения в одном приложении и может вести переписку сразу отсюда.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eyK-pd-RjG">
+                                <rect key="frame" x="21" y="552" width="372" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="372" id="Sox-2a-emq"/>
+                                    <constraint firstAttribute="height" constant="251" id="VsZ-Bo-su8"/>
+                                </constraints>
+                                <string key="text">Приложение в котором можно задавать вопросы(по типу Mail Otveti), НО в формате опросов. Конечно же в ответах есть возможность добавить опрос, но это не главная их фишка и для этого нужно сделать 4 движения (зайти в вопрос, проголосовать, нажать подвердить и выйти) у нас же это будет делаться одним кликом из главного экрана с вопросами. Это эффективный способ получения мнения людей.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="TpP-T2-LZE" firstAttribute="top" secondItem="2oL-yw-IED" secondAttribute="bottom" constant="8" id="0j1-Ji-Zvd"/>
+                            <constraint firstItem="TpP-T2-LZE" firstAttribute="centerX" secondItem="1RK-Rz-C74" secondAttribute="centerX" id="4I5-dZ-gR3"/>
+                            <constraint firstItem="2oL-yw-IED" firstAttribute="top" secondItem="Ptq-Kl-Z2H" secondAttribute="bottom" constant="8" id="7cl-Fg-R71"/>
+                            <constraint firstItem="Ptq-Kl-Z2H" firstAttribute="centerX" secondItem="1RK-Rz-C74" secondAttribute="centerX" id="EM5-cg-eSY"/>
+                            <constraint firstItem="eyK-pd-RjG" firstAttribute="centerX" secondItem="1RK-Rz-C74" secondAttribute="centerX" id="Fv9-cB-1Ps"/>
+                            <constraint firstItem="dn7-tD-tpb" firstAttribute="centerX" secondItem="1RK-Rz-C74" secondAttribute="centerX" id="OMD-cD-8vv"/>
+                            <constraint firstItem="dn7-tD-tpb" firstAttribute="top" secondItem="1RK-Rz-C74" secondAttribute="top" id="TYm-Im-e6j"/>
+                            <constraint firstItem="Ptq-Kl-Z2H" firstAttribute="top" secondItem="dn7-tD-tpb" secondAttribute="bottom" constant="8" id="i9Q-Y2-aWY"/>
+                            <constraint firstItem="eyK-pd-RjG" firstAttribute="top" secondItem="TpP-T2-LZE" secondAttribute="bottom" constant="8" id="nTN-a3-rKH"/>
+                            <constraint firstItem="2oL-yw-IED" firstAttribute="top" secondItem="Ptq-Kl-Z2H" secondAttribute="bottom" constant="8" id="vQJ-18-R6q"/>
+                            <constraint firstItem="2oL-yw-IED" firstAttribute="centerX" secondItem="1RK-Rz-C74" secondAttribute="centerX" id="ztK-1K-ZiV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1RK-Rz-C74"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Идея проекта" id="LbA-ny-XLi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Mh-uy-0QY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-810.14492753623199" y="-82.366071428571431"/>
+        </scene>
+        <!--Обо мне-->
+        <scene sceneID="nnl-M4-A5Y">
+            <objects>
+                <viewController id="Gkr-Ua-2fw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DQP-IH-ms7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваулин Тимофей" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9m-hp-f7H">
+                                <rect key="frame" x="111" y="115" width="192" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Школа" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ib7-qi-cMQ">
+                                <rect key="frame" x="20" y="238" width="61" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="№ 57" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khJ-0t-Vn5">
+                                <rect key="frame" x="344" y="238" width="50" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="github.com/l4kk3r" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odc-xk-pi9">
+                                <rect key="frame" x="234" y="286" width="160" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@the_ape" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhF-Ow-8JQ">
+                                <rect key="frame" x="307" y="334" width="87" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Город" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4o-d2-kRD">
+                                <rect key="frame" x="20" y="190" width="55" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GitHub" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8G-Pq-7op">
+                                <rect key="frame" x="20" y="286" width="63" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telegram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uP0-Ui-rd0">
+                                <rect key="frame" x="20" y="334" width="80" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Навыки" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80h-8f-Ix7">
+                                <rect key="frame" x="20" y="382" width="70" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Python, JS, Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wi3-Ip-zxu">
+                                <rect key="frame" x="248" y="382" width="146" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Москва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9O-b6-9hq">
+                                <rect key="frame" x="324" y="190" width="70" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="OSf-QN-Hg3" firstAttribute="trailing" secondItem="Odc-xk-pi9" secondAttribute="trailing" constant="20" id="2AD-M2-bWF"/>
+                            <constraint firstItem="Y9m-hp-f7H" firstAttribute="top" secondItem="OSf-QN-Hg3" secondAttribute="top" constant="27" id="53M-SP-P74"/>
+                            <constraint firstItem="OSf-QN-Hg3" firstAttribute="trailing" secondItem="khJ-0t-Vn5" secondAttribute="trailing" constant="20" id="5qJ-Yv-iWj"/>
+                            <constraint firstItem="Y9m-hp-f7H" firstAttribute="centerX" secondItem="OSf-QN-Hg3" secondAttribute="centerX" id="7y4-I4-MRB"/>
+                            <constraint firstItem="ib7-qi-cMQ" firstAttribute="leading" secondItem="OSf-QN-Hg3" secondAttribute="leading" constant="20" id="8bQ-ju-IkA"/>
+                            <constraint firstItem="Y8G-Pq-7op" firstAttribute="top" secondItem="ib7-qi-cMQ" secondAttribute="bottom" constant="24" id="8kk-i6-H5w"/>
+                            <constraint firstItem="uP0-Ui-rd0" firstAttribute="leading" secondItem="OSf-QN-Hg3" secondAttribute="leading" constant="20" id="AIz-d4-ex3"/>
+                            <constraint firstItem="Odc-xk-pi9" firstAttribute="top" secondItem="khJ-0t-Vn5" secondAttribute="bottom" constant="24" id="GCb-QQ-pTa"/>
+                            <constraint firstItem="ib7-qi-cMQ" firstAttribute="top" secondItem="n4o-d2-kRD" secondAttribute="bottom" constant="24" id="N50-PJ-yiZ"/>
+                            <constraint firstItem="80h-8f-Ix7" firstAttribute="top" secondItem="uP0-Ui-rd0" secondAttribute="bottom" constant="24" id="PJb-sY-a0u"/>
+                            <constraint firstItem="Wi3-Ip-zxu" firstAttribute="top" secondItem="VhF-Ow-8JQ" secondAttribute="bottom" constant="24" id="Pmn-2x-8Nr"/>
+                            <constraint firstItem="OSf-QN-Hg3" firstAttribute="trailing" secondItem="Wi3-Ip-zxu" secondAttribute="trailing" constant="20" id="TRz-0W-FLj"/>
+                            <constraint firstItem="T9O-b6-9hq" firstAttribute="top" secondItem="OSf-QN-Hg3" secondAttribute="top" constant="102" id="Vgh-xo-hzA"/>
+                            <constraint firstItem="khJ-0t-Vn5" firstAttribute="top" secondItem="T9O-b6-9hq" secondAttribute="bottom" constant="24" id="YaD-6H-aTG"/>
+                            <constraint firstItem="Y8G-Pq-7op" firstAttribute="leading" secondItem="OSf-QN-Hg3" secondAttribute="leading" constant="20" id="acA-oc-pTV"/>
+                            <constraint firstItem="n4o-d2-kRD" firstAttribute="top" secondItem="OSf-QN-Hg3" secondAttribute="top" constant="102" id="ah0-vr-cB5"/>
+                            <constraint firstItem="80h-8f-Ix7" firstAttribute="leading" secondItem="OSf-QN-Hg3" secondAttribute="leading" constant="20" id="mVF-wS-h6V"/>
+                            <constraint firstItem="OSf-QN-Hg3" firstAttribute="trailing" secondItem="T9O-b6-9hq" secondAttribute="trailing" constant="20" id="mlM-eV-5YF"/>
+                            <constraint firstItem="OSf-QN-Hg3" firstAttribute="trailing" secondItem="VhF-Ow-8JQ" secondAttribute="trailing" constant="20" id="sNb-XO-odf"/>
+                            <constraint firstItem="n4o-d2-kRD" firstAttribute="leading" secondItem="OSf-QN-Hg3" secondAttribute="leading" constant="20" id="sXG-Ta-fZH"/>
+                            <constraint firstItem="uP0-Ui-rd0" firstAttribute="top" secondItem="Y8G-Pq-7op" secondAttribute="bottom" constant="24" id="uzP-76-sBi"/>
+                            <constraint firstItem="VhF-Ow-8JQ" firstAttribute="top" secondItem="Odc-xk-pi9" secondAttribute="bottom" constant="24" id="yd6-sb-x7Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OSf-QN-Hg3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Обо мне" id="ENF-pK-hOg"/>
+                    <navigationItem key="navigationItem" title="Обо мне" id="1hR-pu-WmL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RZF-7F-niY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-836.23188405797111" y="643.52678571428567"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Bgn-Xf-RIJ">
+            <objects>
+                <tabBarController id="Vg9-c5-xMf" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ohY-Oy-SlL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dwr-5d-Vcy" kind="relationship" relationship="viewControllers" id="clm-wY-P8e"/>
+                        <segue destination="NjC-SV-8vh" kind="relationship" relationship="viewControllers" id="cig-L3-r8E"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IXJ-I9-bfQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2674" y="376"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="lightbulb" catalog="system" width="113" height="128"/>
+    </resources>
+</document>
